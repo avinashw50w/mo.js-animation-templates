@@ -1,0 +1,21 @@
+body {
+    background: #222;
+    text-align: center;
+    color: white;
+}
+
+#footer {
+    margin-top: 550px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+#link {
+    color: white;
+    text-decoration: none;
+}
+
+#link:hover {
+    text-decoration: underline;
+}

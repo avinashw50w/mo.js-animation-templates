@@ -3,9 +3,8 @@ document.addEventListener('click', function(e) {
       radius: {0: 360},
       count: 20,
       children: {
-        shape: 'cross',
-        stroke: 'teal',
-        strokeWidth: {6: 0},
+        shape: 'circle',
+        fill: 'teal',
         duration: 3000,
         radius: {15: 5},
         angle: {360: 0}
@@ -28,7 +27,7 @@ const burst = new mojs.Burst({
 
 const burst2 = new mojs.Burst({
   radius: {0: 200},
-  count: 15,
+  count: 16,
   children: {
     shape: 'zigzag',
     points: 8,
@@ -43,12 +42,11 @@ const burst2 = new mojs.Burst({
 
 const burst3 = new mojs.Burst({
   radius: {0: 200},
-  count: 5,
+  count: 6,
   children: {
     color: 'green',
-    points: 8,
     opacity: {1: 0},
-    duration: 3000,
+    duration: 3200,
     radius: {15: 5},
     angle: {'-360': 0}
 }
