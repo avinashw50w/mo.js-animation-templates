@@ -1,6 +1,6 @@
 document.addEventListener('click', function(e) {
     var burst = new mojs.Burst({
-      radius: {0: 360},
+      radius: {0: 300},
       count: 20,
       children: {
         shape: 'circle',
@@ -13,7 +13,7 @@ document.addEventListener('click', function(e) {
 });
 
 const burst = new mojs.Burst({
-  radius: {0: 100},
+  radius: {0: 130},
   count: 20,
   children: {
     shape: 'cross',
@@ -35,7 +35,7 @@ const burst2 = new mojs.Burst({
     fill: 'none',
     strokeWidth: {6: 0},
     duration: 3000,
-    radius: {30: 5},
+    radius: {30: 10},
     angle: {'-360': 0}
 }
 });
@@ -44,7 +44,7 @@ const burst3 = new mojs.Burst({
   radius: {0: 200},
   count: 6,
   children: {
-    color: 'green',
+    fill: 'cyan',
     opacity: {1: 0},
     duration: 3200,
     radius: {15: 5},
@@ -75,7 +75,7 @@ const circle2 = new mojs.Shape({
     stroke: 'yellow',
     opacity: {1: 0},
     duration: 3500,
-    delay: 450
+    delay: 400
 });
 
 const timeline = new mojs.Timeline({

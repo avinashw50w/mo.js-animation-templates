@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
 body {
     background: #222;
     text-align: center;
@@ -11,11 +13,11 @@ body {
     font-weight: 200;
 }
 
-#link {
+a {
     color: white;
     text-decoration: none;
 }
 
-#link:hover {
+a:hover {
     text-decoration: underline;
 }
