@@ -1,16 +1,3 @@
-document.addEventListener('click', function(e) {
-    var burst = new mojs.Burst({
-      radius: {0: 300},
-      count: 20,
-      children: {
-        shape: 'circle',
-        fill: 'teal',
-        duration: 3000,
-        radius: {15: 5},
-        angle: {360: 0}
-      }
-    }).play();
-});
 
 const burst = new mojs.Burst({
   radius: {0: 130},
