@@ -39,15 +39,6 @@ const burst3 = new mojs.Burst({
 }
 });
 
-const circle_obj = {
-  radius: {0: 200},
-  fill: 'none',
-  stroke: 'yellow',
-  opacity: {1: 0},
-  duration: 3500
-};
-
-
 const circle = new mojs.Shape({
     radius: {0: 200},
     fill: 'none',
